@@ -26,3 +26,14 @@ int main() {
     printf("%d\n", check_div(11, 4));
     return 0;
 }
+#include <stdio.h>
+
+int main()
+{
+    int a;
+
+    scanf("%d", &a);
+    printf("%d", a / 1000);
+
+    return 0;
+}
